@@ -63,8 +63,7 @@ const DUMMY_MEALS =  [
     title: 'Spaghetti ',
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://lh3.googleusercontent.com/b64qtZKC6x98k611ZA893uBO2tW8357jQq72_KjMZNtGF1zTxoVCjFLA4XDFyk2re9jz7piL5o9SS9sqod4a-3LtxvkW9DjFkBWhKAnpzsKGsIf4Cbo-9rB5ISmwlYhB-0Y_tDY24xlqlqkf2f5ugVPrz-VSNuSCtdr6uMqDS_vfv14N6kwTonEGvrHs-B1i4fPtiwsl5z5VljXfTTLgKs1Lk5VqJfP2MWf-JQz_cTge60DDRUJzzoZTtwmLlPd8m_5fHb5dni5-foeZvBHzbV7qmXNgSR5C7tMjLDtptmLPiCfYoGA2MZtvNqWcYeJpPFEKzjrN0OvcNvn1n0w8htufmg3onfGBVEiN63M_1NjJ__ib3XMgu0JH_gX-mBMhTt0Tgxxeh2MnH_5VMdr622xTmEV2NTabQBaHYKg9xmaRjp1d-Ogcjel9o1wCeJ4QfZAurebmiE3dmv_dTd9XvOjXFglL6n1H7OzJzf4g6Yc7WUkqQSMMgbeIAV8IRsDKBJP2eibMJcC9KMxjVFQcKRlOw9wELJlnKqhvyNcay14tuy1xUnn7UX0King7YP70l69l41gan4gCdJINjm5OBmL_GrKgwzyg4wFCQmK7dsx_aU-_NzKG5ZzZk3cxi9hP8wWnGWKuzzXyrOo12Z4cXk9UEBwXzuuv8a3RXND9wD7_VaXtEHFJ0XJWsRhxh3vxIy_g4jYFffD69v4uXxGYNQcVryVyJbyFrttJIWvWRn16pqgkWqb0jSWMrhvIFbAZFCp_XYLSIgT78w8WouLL7fVPiOBFmiKMyZ2ULEe8HKw2aKa0uLfWu_vmAN9V4l_Z4eStxDv6U7tW4v3ADcpGqa0LYD5jPwcR_sR9cNcyLLkD32OkLnVDi5CsncYSLClA4oUx9qYt9V-_g4B23gZdrfhU12cKZZi9rzOQgbseNBcNMqRcI9HFG_rTYlJMlFkOHNxpzZX9YrB0ONh_xcKAe6-kA5aREVr9HlsTq-CB1q1a4l2G50DgKmX0znoWqL7I_70PLktVinWjyQ6aLjMX75UG5-5tJbHYoEV_0N6YXxDfoTTmDG3xgrE=w481-h519-no?authuser=2',
+    imageUrl:'https://github.com/pal-NIKHIL/TheCookBook/blob/master/Images/370367290-removebg-preview.png?raw=true',
     duration: 20,
     ingredients: [
       '4 Tomatoes',
@@ -96,8 +95,7 @@ const DUMMY_MEALS =  [
     title: "Mcdonald's meal",
     affordability: Affordability.Affordable,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://lh3.googleusercontent.com/z0ii3JsvlYmoyOCJegp9EVWgYEhsKKm401ZFXNSPz6VPejkYIPxhUioZytj3t51vU09CPT3EmLDh2Kmv7z2BbmLG9beSnntMlDJR-u0VFO9Jka-Q7YzQk4Cjmn3iI31BWNNjklWQO_RM_FO02_hyEWWvACBp7aEiWWuTaoRD7wPdDTEQ2VFElgyRmnaQLvXNQuT3U0kDnTbG229KD4w_RBSETxAa66q9S2f8jtOXoK2dmmT-F6xsVNC8aI00fKipGkDoDHJlDJ0x1snCcU0umEg5jUbs3g00AUxyxPEOdC7-15P1aXmq4dxl_l4vgpTTKXyM3kBlKb7X89Ne67YOJuMDu_lGysdPDjVnuAfTXLOKo-9ciqAJu9QhvO-M-jj9c_zPgse5DUU-_oa9QrKyR8b6rcQr5IXVS94db-zEgwBIt1L1yKifJk0VQLYspirCm7xZIvapqKQIqZ0f7kYAtrRBYdQUMZIYo1QHU59v2604WS_3cBzaAcaFCCZFi6F5E8gWtNch36LvRDpsiFCFV28AXYeLVVc3_ySWh-n3gpCqsK-usyUginqWr3LJ305orLOiD8AuK_jf1AKIdD2dRjw3EW2y87RpLXLeg9B2_OYjgmWdpKAGEggQV05u6FzTHJGkV9567dzbTBnOI4K0rjrDBn4zff3xPWZ3c25kG1v0j4UxLhEwzPysPBS76h-M_G25YW_IT5fPy7OxW0Sx9SDPK-eBpwqp4o5j4YXG_-sc2AYWPDnwy_CUoljsbpJfE74O9Wc3TQmX4GIdPM0R36ADbxw4mDh2lSpfw2dKpOq9EQSkM91yAFAn_PIA6ZXZhR4IDuoegf_7D0Imv9rixU5rEN0Aq17UbhoOtgrmIvtyqFrtSjTglwqWq5fEPS8DcDoKIQfPSlAO=s225-no?authuser=2',
+    imageUrl:'https://github.com/pal-NIKHIL/TheCookBook/blob/master/Images/download-removebg-preview.png?raw=true',
     duration: 10,
     ingredients: [
       '1 Slice White Bread',
@@ -125,8 +123,7 @@ const DUMMY_MEALS =  [
     title: 'Classic Hamburger',
     affordability: Affordability.costly,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://lh3.googleusercontent.com/ap9jPH4Oc1UYwQZW2DWPVeEqY38HTFim141-fUHl-sSyLuOj568CxICbjlwQ1YZPYGXwRPzK_uy9kXrAdgaSRcszTsdt5j2PBC__9LLyaZIfJeyPve391R8U9nbEGXai0ZlBY48fqPr6jEH0dDe9jht8K0l8m_0P-MhV3mhFTniHWXzzLxrOmAFRdujg47HqJ7HbQXiR_N04UMNNpcJzyFe884Q25QgLgzJjZoeL03DfYxvx9AtVdxg2CKxNl-TT4rIhrkVkYzA-NoitrtalE3PE9X8XLNgmG5hkEWSTMIVHGamSDwVpQ6KIqy3tNtolptzIC-XFM7gaXGO92zraK7Ykw7t65A5VnYxHRDef-I5bpO-adLbhPKU5qGUIVYvTEaRmBcl3LxFJ_XNGOSXwwSPz5FpIm-i-tqqicWh48h5ypUZTzN-rXS0X_ISLHq4Z_9z718Bianop93lnJ-qV3IPXvtn2AEobAiCzZp8CXDwDT2M7o9CyXPD3CDf-98WhiqVocouEbozhhbXy72yBxR62w-gSxEetN-ROY2VVqpibhvBPgfCLdMk-YN-ILBUok02Lb6ljHkZaS0TKvNpH1mUdwb5rRh-3At9UnSp1bdA8juEwN4FlKmeAqX51ecXMSL-S8MaP41Wsh1ZJ2bRDfmYDgWy66bdgfgfUWLgRAlfBVL3k4TLXxmqR38_xkqi3UlMt1noEcBewgyiJnHcImZ6CgH_IBj7NO8-_-FGBKCX6tie5cHpj5qPH1Hswzj44MfnY6-pksknjlkRorN3CLoN24CqKh5m3mRsZl-BhFa6VR0AsIVrwiXyyROARgeZDZlzAQcR22d2oIDnb-nzmBwGletNpZ2QQxqW6UpdybfUF5tC2nK7j2S60yveXCuUowBR7B6FcZUhJ=w222-h227-no?authuser=2',
+    imageUrl: 'https://github.com/pal-NIKHIL/TheCookBook/blob/master/Images/download-removebg-preview%20(1).png?raw=true',
     duration: 45,
     ingredients: [
       '300g Cattle Hack',
@@ -378,8 +375,7 @@ const DUMMY_MEALS =  [
     title: 'Asparagus Salad',
     affordability: Affordability.Luxurious,
     complexity: Complexity.Simple,
-    imageUrl:
-    'https://lh3.googleusercontent.com/JCQ6ZK7p_4XgdSrLg1lcSzBUIH-lIShFnUPKdOQVpH92xv8bXLp3XdmnDKSdQRoUeGmT5B55oNVk3yr1B6j6aAjhbuI7RvAlnAt8amGyty6a4Pjsiob8tFJg6nDKLXrPmUB3ttCbIIXzGz3Xmgj4LrLSxGOP0BGC-RhS9VDEVrCy2j6Q7lLK0JRzLSyLaKul3DWCdo1xMFXj--TMVUcSzTpj8sphBM72I7GUGm_ThRN9YwwSPGrNl3HGYVdxMrz94mauxuHz8GtzE8vMpjQGSBpQr1DWyvdHCaMdWggvRFn52wD3OAAhtAeFQ5VZaQXd8qXZyJFe8MOan0VFTV_9bfwM0smlFeHr6Gk9XoeLqOY8oSBCDOoJkFosLGP4J-qTRDltIHx4iZM5zZVh7OVht_YlDkhBDe_m8kb0c6GIMNKUzOxJhODHpg24bp9CGEfqs9wRsk5RbRUhtDmpNeJeCPvgohJjUSQmYHX7XrbdBn4i8mGVPU4d6QMeWpPatNIDn34YUo7T4FTFVk9W0BtEcroFpuj-Mmmp-jL-GSZI34qFu_PzW5Dw1B4YAURnpt0nHJ8S3FrwLq21cVYhsoj7oD-kZtBHL0Sr2wAwzcRmK7mcd48xstFWNMevTz_mEjBhVQ_LYj4F6MkvXfCi-vO92A8Qog2GntCu7SW7jQ6PWF0xIDEMYxkw5DLdWRD5zMf1bxG8pvsEQvwoNFyVVGA-jDWaBXDoydHTOyW2hB-fxPlRjaPL-dng-AoTsrHHDULpua4aAtJBCrEayhFcNotAUjPQ_8QVqsSy1n4ddpzMfFsiF45FrmOe9BE5l9BXgfsxVvtJu_dbIoeLIa-YU1TZAOj2uA6eRemN0skSNsl5u7u4-1LgCz5f6yysvMzJWcMejD-1UDlyO_zT=w612-h408-no?authuser=2',
+    imageUrl: 'https://github.com/pal-NIKHIL/TheCookBook/blob/master/Images/diet-nicoise-salad-with-tuna-egg-asparagus-white-plate-black-background_207126-7713-removebg-preview.png?raw=true',
     duration: 30,
     ingredients: [
       'White and Green Asparagus',

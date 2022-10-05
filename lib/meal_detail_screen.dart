@@ -3,6 +3,8 @@ import 'package:meal_planner/dummy_dart.dart';
 
 class MealDetailscreen extends StatelessWidget{
   static const routeName='/meal-detail';
+  final Function tooglefavorite,fav;
+  MealDetailscreen(this.tooglefavorite,this.fav);
   Widget buildcontainer(Widget child){
     return Container(
       width: 300,
@@ -18,7 +20,7 @@ class MealDetailscreen extends StatelessWidget{
     final selectedMeal=DUMMY_MEALS.firstWhere((element) => element.id==mealid);
     return Scaffold(
      backgroundColor:Color.fromRGBO(27, 36, 48, 0.5),
-      appBar: AppBar(title: Text(selectedMeal.title),
+      appBar: AppBar(title: Text(selectedMeal.title,style: TextStyle(fontFamily: 'philosopher',fontSize: 28),),
       backgroundColor:Color.fromRGBO(27, 36, 48, 0.5),),
       body:SingleChildScrollView(
         child: Column(
@@ -27,30 +29,41 @@ class MealDetailscreen extends StatelessWidget{
             Container(
                 height: 300,
                 child: Image.network(selectedMeal.imageUrl)
-            ),Text("Ingredients",textAlign: TextAlign.center),
+            ),Padding(padding:EdgeInsets.only(left: 35),child: Text("Ingredients",textAlign: TextAlign.start,style: TextStyle(color: Colors.white,fontSize: 25,fontFamily: 'playfair',decoration: TextDecoration.underline,decorationColor: Colors.white,decorationThickness: 3,),)),
               buildcontainer(
-                ListView.builder(itemBuilder: (ctx,index)=>Card(
-                  child: Padding(padding:EdgeInsets.all(5),child: Text(selectedMeal.ingredients[index],textAlign: TextAlign.center,)),
+                Scrollbar(
+                  thumbVisibility: true,
+                  child: ListView.builder(itemBuilder: (ctx,index)=> Row(
+                      children:[
+                        Padding(padding:EdgeInsets.all(7),child: Icon(Icons.circle,color: Colors.red,size: 15,)),
+                      Text(selectedMeal.ingredients[index],textAlign: TextAlign.start,style: TextStyle(color: Colors.white,fontFamily: 'ibm',fontSize: 18),),
+                  ]),
+                  itemCount: selectedMeal.ingredients.length,),
                 ),
-                itemCount: selectedMeal.ingredients.length,),
               ),
+            Padding(padding:EdgeInsets.only(left:35),child: Text("Cooking",style: TextStyle(color: Colors.white,fontSize: 25,fontFamily: 'playfair',decoration: TextDecoration.underline,decorationColor: Colors.white,decorationThickness: 3),)),
             buildcontainer(
-              ListView.builder(itemBuilder: (ctx,index)=>Column(
-                children: [ListTile(
-                  leading: CircleAvatar(child: Text('#${index+1}'),),
-                  title: Padding(padding:EdgeInsets.all(5),child: Text(selectedMeal.steps[index],textAlign: TextAlign.start,style: TextStyle(color: Colors.white),)),
-                ),Divider()],
+              Scrollbar(
+                thumbVisibility: true,
+                child: ListView.builder(itemBuilder: (ctx,index)=>Column(
+                  children: [ListTile(
+                    leading: CircleAvatar(child: Text('#${index+1}'),),
+                    title: Padding(padding:EdgeInsets.all(5),child: Text(selectedMeal.steps[index],textAlign: TextAlign.start,style: TextStyle(color: Colors.white,fontFamily: 'ibm'),)),
+                  ),Divider()],
+                ),
+                  itemCount: selectedMeal.steps.length,),
               ),
-                itemCount: selectedMeal.steps.length,),
             ),
           ],
         ),
       ),
         floatingActionButton:FloatingActionButton(
-        child:Icon(Icons.delete),
+          backgroundColor: Color.fromRGBO(224, 50, 14, 1.0),
+        child:Icon(fav(mealid)?Icons.star:Icons.star_border),
     onPressed: (){
-          Navigator.of(context).pop(mealid);
-    })
+          tooglefavorite(mealid);
+    }
+    )
     );
   }
 }

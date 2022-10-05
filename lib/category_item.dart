@@ -16,7 +16,7 @@ class Categoryitem extends StatelessWidget{
         margin: EdgeInsets.only(right: 8),
         width: 110,
         child: Card(
-          color: Theme.of(context).colorScheme.secondary,
+          color: Color.fromRGBO(27, 36, 48, 1),
           child: Container(
             decoration: BoxDecoration(
               image: DecorationImage(
@@ -25,7 +25,6 @@ class Categoryitem extends StatelessWidget{
                 image:image.image,
               ),
             ),
-            child: Text(title,style: TextStyle(fontSize: 15,color: Colors.white),),
           ),
         ),
       ),

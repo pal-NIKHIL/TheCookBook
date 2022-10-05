@@ -68,6 +68,18 @@ flutter:
     - lib/images/Asian.png
     - lib/images/asian2.png
     - lib/images/indian.png
+    - lib/images/burger.png
+    - lib/images/dosa.png
+    - lib/images/pizza2.png
+    - lib/images/noodle.png
+    - lib/images/lolly.png
+    - lib/images/foodicon.png
+    - lib/images/plate1.png
+    - lib/images/plate2.png
+    - lib/images/plate3.png
+    - lib/images/plate4.png
+    - lib/images/plate5.png
+    - lib/images/favoriteicon.png
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://fl  utter.dev/assets-and-images/#resolution-aware
 
@@ -79,17 +91,27 @@ flutter:
   # "family" key with the font family name, and a "fonts" key with a
   # list giving the asset and other descriptors for the font. For
   # example:
-  # fonts:
-  #   - family: Schyler
-  #     fonts:
-  #       - asset: fonts/Schyler-Regular.ttf
-  #       - asset: fonts/Schyler-Italic.ttf
-  #         style: italic
-  #   - family: Trajan Pro
-  #     fonts:
-  #       - asset: fonts/TrajanPro.ttf
-  #       - asset: fonts/TrajanPro_Bold.ttf
-  #         weight: 700
+  fonts:
+    - family: playfair
+      fonts:
+        - asset: lib/font/PlayfairDisplay-Black.ttf
+        - asset: lib/font/PlayfairDisplay-BlackItalic.ttf
+        - asset: lib/font/PlayfairDisplay-Bold.ttf
+    - family: philosopher
+      fonts:
+        - asset: lib/font/Philosopher-Regular.ttf
+        - asset: lib/font/Philosopher-Bold.ttf
+        - asset: lib/font/Philosopher-Italic.ttf
+    - family: ibm
+      fonts:
+        - asset: lib/font/IBMPlexSans-Regular.ttf
+    - family: monte
+      fonts:
+        - asset: lib/font/Montserrat-VariableFont_wght.ttf
+    - family: mukta
+      fonts:
+        - asset: lib/font/Mukta-Regular.ttf
+
   #
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/custom-fonts/#from-packages

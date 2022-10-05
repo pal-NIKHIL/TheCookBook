@@ -7,11 +7,8 @@ class Mealitem extends StatelessWidget {
   final int duration;
   final Complexity complexity;
   final Affordability affordability;
-  final Function removeitem;
-
   Mealitem(
       {
-      required this.removeitem,
       required this.id,
       required this.title,
       required this.imageUrl,
@@ -43,7 +40,9 @@ class Mealitem extends StatelessWidget {
 
   void selectMeal(BuildContext context) {
     Navigator.of(context).pushNamed(MealDetailscreen.routeName,arguments: id).then((value) => {
-      if(value!=null) removeitem(value)
+      if(value!=null) {
+
+      }
     });
   }
 
@@ -63,7 +62,7 @@ class Mealitem extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 crossAxisAlignment: CrossAxisAlignment.center,
                 children: [
-                  Text(title,style: TextStyle(color: Colors.white,fontSize: 18),),
+                  Text(title,style: TextStyle(color: Colors.white,fontSize: 20,fontFamily: 'philosopher'),),
                   SizedBox(height: 10,),
                   Row(
                     children: [

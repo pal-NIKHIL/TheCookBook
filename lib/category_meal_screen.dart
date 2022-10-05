@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import './dummy_dart.dart';
 import './meal_item.dart';
 import './model/meal.dart';
 class CategoryMealscreen extends StatefulWidget {
   static const routename = '/category-Meal';
-
+  final List<Meal> availablemeal;
+  CategoryMealscreen(this.availablemeal);
   @override
   State<CategoryMealscreen> createState() => _CategoryMealscreenState();
 }
@@ -24,7 +24,7 @@ class _CategoryMealscreenState extends State<CategoryMealscreen> {
           ModalRoute.of(context)?.settings.arguments as Map<String, String>;
       categorytitle = routeargs['title'];
       final categoryid = routeargs['id'];
-      displaymeal = DUMMY_MEALS.where((meal) {
+      displaymeal = widget.availablemeal.where((meal) {
         return meal.categories.contains(categoryid);
       }).toList();
     }
@@ -41,7 +41,7 @@ class _CategoryMealscreenState extends State<CategoryMealscreen> {
       backgroundColor:Color.fromRGBO(27, 36, 48, 0.5),
       appBar: AppBar(
         backgroundColor:Color.fromRGBO(27, 36, 48, 0.5),
-        title: Text(categorytitle!),
+        title: Text(categorytitle!,style: TextStyle(fontFamily: 'philosopher',fontSize: 25)),
       ),
       body: ListView.builder(
         itemBuilder: (ctx, index) {
@@ -51,7 +51,7 @@ class _CategoryMealscreenState extends State<CategoryMealscreen> {
             complexity:  displaymeal[index].complexity,
             duration:  displaymeal[index].duration,
             imageUrl:  displaymeal[index].imageUrl,
-            affordability:  displaymeal[index].affordability, removeitem: removemeal,
+            affordability:  displaymeal[index].affordability,
           );
         },
         itemCount:  displaymeal.length,
