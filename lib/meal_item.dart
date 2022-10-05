@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:meal_planner/meal_detail_screen.dart';
+import './meal_detail_screen.dart';
 import './model/meal.dart';
+import 'meal_detail_screen.dart';
 
 class Mealitem extends StatelessWidget {
   final String title, imageUrl,id;
