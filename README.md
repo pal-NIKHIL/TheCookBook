@@ -1,4 +1,4 @@
-# meal_planner
+# The CookBook
 
 A new Flutter project.
 
